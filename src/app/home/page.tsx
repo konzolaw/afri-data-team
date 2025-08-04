@@ -1,10 +1,10 @@
 import Link from "next/link";
-import WhoWeAre from "./home/components/WhoWeAre";
-import CommunityImpact from "./home/components/CommunityImpact";
-import PartnersSection from "./home/components/PartnersSection";
-import CTASection from "./home/components/CTASection";
+import WhoWeAre from "./components/WhoWeAre";
+import CommunityImpact from "./components/CommunityImpact";
+import PartnersSection from "./components/PartnersSection";
+import CTASection from "./components/CTASection";
 
-export default function RootPage() {
+export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
