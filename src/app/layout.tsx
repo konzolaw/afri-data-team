@@ -17,6 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "AfriData - African Data Sharing Platform",
   description: "Open access platform for African datasets. Upload, download, and collaborate on datasets relevant to African communities, research, and innovation.",
+  viewport: "width=device-width, initial-scale=1",
 };
 
 export default function RootLayout({
